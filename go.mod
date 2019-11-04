@@ -4,11 +4,18 @@ go 1.13
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
+	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
+	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae // indirect
 	github.com/davecheney/httpstat v1.0.0
+	github.com/dgryski/go-gk v0.0.0-20140819190930-201884a44051 // indirect
+	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77 // indirect
 	github.com/fatih/color v1.7.0 // indirect
+	github.com/influxdata/tdigest v0.0.0-20191030224523-3fbb3e34b87f // indirect
 	github.com/jessevdk/go-flags v1.4.0 // indirect
+	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.10 // indirect
+	github.com/miekg/dns v1.1.22 // indirect
 	github.com/monochromegane/conflag v0.0.0-20151130130520-6d68c9aa4183 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20160105113617-38717d0a108c // indirect
 	github.com/monochromegane/go-home v0.0.0-20151024104835-25d9dda59392 // indirect
@@ -16,6 +23,9 @@ require (
 	github.com/monochromegane/the_platinum_searcher v2.2.0+incompatible
 	github.com/parkghost/gohttpbench v0.0.0-20191003033311-beddfce5cb9d
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
+	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
+	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
+	github.com/tsenart/vegeta v12.7.0+incompatible
 	golang.org/x/net v0.0.0-20191021144547-ec77196f6094 // indirect
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
