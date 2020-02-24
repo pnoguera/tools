@@ -8,6 +8,7 @@ require (
 	github.com/davecheney/httpstat v1.0.0
 	github.com/dgryski/go-gk v0.0.0-20140819190930-201884a44051 // indirect
 	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77 // indirect
+	github.com/fatih/hclfmt v0.0.0-20181010234132-374cd0fd2a55
 	github.com/gobuffalo/buffalo v0.15.0
 	github.com/influxdata/tdigest v0.0.0-20191030224523-3fbb3e34b87f // indirect
 	github.com/jessevdk/go-flags v1.4.0 // indirect
