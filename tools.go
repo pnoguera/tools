@@ -8,6 +8,7 @@ import (
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
 	_ "github.com/monochromegane/the_platinum_searcher/cmd/pt" // platinum searcher
 	_ "github.com/parkghost/gohttpbench"                       // http benchmarking tool
+	_ "github.com/rakyll/hey"                                  // another http benchmarking tool
 	_ "github.com/securego/gosec/cmd/gosec"                    // Go code security inpection
 	_ "github.com/tsenart/vegeta"                              // http load tool
 )

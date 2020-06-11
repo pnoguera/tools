@@ -19,6 +19,7 @@ require (
 	github.com/monochromegane/terminal v0.0.0-20161222050454-9bc47e2707d9 // indirect
 	github.com/monochromegane/the_platinum_searcher v2.2.0+incompatible
 	github.com/parkghost/gohttpbench v0.0.0-20191003033311-beddfce5cb9d
+	github.com/rakyll/hey v0.1.3
 	github.com/securego/gosec v0.0.0-20200203094520-d13bb6d2420c
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
