@@ -3,7 +3,9 @@
 package main
 
 import (
+	_ "github.com/SuddenGunter/jwtdec"                         // JWT decoder
 	_ "github.com/davecheney/httpstat"                         // http status
+	_ "github.com/gjbae1212/gossm"                             // SSM SSH
 	_ "github.com/gobuffalo/buffalo/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
 	_ "github.com/monochromegane/the_platinum_searcher/cmd/pt" // platinum searcher

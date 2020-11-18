@@ -3,11 +3,13 @@ module github.com/pnoguera/tools
 go 1.13
 
 require (
+	github.com/SuddenGunter/jwtdec v0.1.1 // indirect
 	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
 	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae // indirect
 	github.com/davecheney/httpstat v1.0.0
 	github.com/dgryski/go-gk v0.0.0-20140819190930-201884a44051 // indirect
 	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77 // indirect
+	github.com/gjbae1212/gossm v1.1.0 // indirect
 	github.com/gobuffalo/buffalo v0.15.0
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb
 	github.com/influxdata/tdigest v0.0.0-20191030224523-3fbb3e34b87f // indirect
