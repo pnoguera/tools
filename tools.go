@@ -12,6 +12,6 @@ import (
 	_ "github.com/parkghost/gohttpbench"                       // http benchmarking tool
 	_ "github.com/rakyll/hey"                                  // another http benchmarking tool
 	_ "github.com/securego/gosec/cmd/gosec"                    // Go code security inpection
-	_ "github.com/tsenart/vegeta"                              // http load tool
+	_ "github.com/tsenart/vegeta/v12"                          // http load tool
 	_ "github.com/warrensbox/terraform-switcher"               // Terraform version switch tool
 )

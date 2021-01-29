@@ -4,16 +4,11 @@ go 1.13
 
 require (
 	github.com/SuddenGunter/jwtdec v0.1.1
-	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
-	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae // indirect
 	github.com/davecheney/httpstat v1.0.0
-	github.com/dgryski/go-gk v0.0.0-20140819190930-201884a44051 // indirect
-	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77 // indirect
-	github.com/gjbae1212/gossm v1.1.0
+	github.com/gjbae1212/gossm v1.3.0
 	github.com/gobuffalo/buffalo v0.15.0
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb
 	github.com/influxdata/tdigest v0.0.0-20191030224523-3fbb3e34b87f // indirect
-	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/manifoldco/promptui v0.8.0 // indirect
 	github.com/miekg/dns v1.1.22 // indirect
 	github.com/monochromegane/conflag v0.0.0-20151130130520-6d68c9aa4183 // indirect
@@ -22,12 +17,10 @@ require (
 	github.com/monochromegane/terminal v0.0.0-20161222050454-9bc47e2707d9 // indirect
 	github.com/monochromegane/the_platinum_searcher v2.2.0+incompatible
 	github.com/parkghost/gohttpbench v0.0.0-20191003033311-beddfce5cb9d
-	github.com/rakyll/hey v0.1.3
+	github.com/rakyll/hey v0.1.4
 	github.com/securego/gosec v0.0.0-20200203094520-d13bb6d2420c
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
-	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
-	github.com/tsenart/vegeta v12.7.0+incompatible
+	github.com/tsenart/vegeta/v12 v12.8.4
 	github.com/warrensbox/terraform-switcher v0.1.1-0.20210113091211-b83d98e56f65
-	golang.org/x/net v0.0.0-20191021144547-ec77196f6094 // indirect
 )
