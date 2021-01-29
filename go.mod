@@ -3,17 +3,18 @@ module github.com/pnoguera/tools
 go 1.13
 
 require (
-	github.com/SuddenGunter/jwtdec v0.1.1 // indirect
+	github.com/SuddenGunter/jwtdec v0.1.1
 	github.com/bmizerany/perks v0.0.0-20141205001514-d9a9656a3a4b // indirect
 	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae // indirect
 	github.com/davecheney/httpstat v1.0.0
 	github.com/dgryski/go-gk v0.0.0-20140819190930-201884a44051 // indirect
 	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77 // indirect
-	github.com/gjbae1212/gossm v1.1.0 // indirect
+	github.com/gjbae1212/gossm v1.1.0
 	github.com/gobuffalo/buffalo v0.15.0
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb
 	github.com/influxdata/tdigest v0.0.0-20191030224523-3fbb3e34b87f // indirect
 	github.com/mailru/easyjson v0.7.0 // indirect
+	github.com/manifoldco/promptui v0.8.0 // indirect
 	github.com/miekg/dns v1.1.22 // indirect
 	github.com/monochromegane/conflag v0.0.0-20151130130520-6d68c9aa4183 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20160105113617-38717d0a108c // indirect
@@ -27,5 +28,6 @@ require (
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25 // indirect
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
 	github.com/tsenart/vegeta v12.7.0+incompatible
+	github.com/warrensbox/terraform-switcher v0.1.1-0.20210113091211-b83d98e56f65
 	golang.org/x/net v0.0.0-20191021144547-ec77196f6094 // indirect
 )
