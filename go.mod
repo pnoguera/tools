@@ -6,7 +6,7 @@ require (
 	github.com/SuddenGunter/jwtdec v0.1.1
 	github.com/davecheney/httpstat v1.0.0
 	github.com/gjbae1212/gossm v1.3.0
-	github.com/gobuffalo/buffalo v0.15.0
+	github.com/gobuffalo/buffalo v0.16.23
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb
 	github.com/influxdata/tdigest v0.0.0-20191030224523-3fbb3e34b87f // indirect
 	github.com/manifoldco/promptui v0.8.0 // indirect
