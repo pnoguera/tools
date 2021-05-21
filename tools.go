@@ -9,7 +9,7 @@ import (
 	_ "github.com/gobuffalo/buffalo/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
 	_ "github.com/monochromegane/the_platinum_searcher/cmd/pt" // platinum searcher
-	_ "github.com/mr-karan/doggo/cmd/doggo/cli@v0.4.0"         // DNS tool
+	_ "github.com/mr-karan/doggo/cmd/doggo/cli@v0.4.0"         // #name:doggo# DNS tool
 	_ "github.com/parkghost/gohttpbench"                       // http benchmarking tool
 	_ "github.com/rakyll/hey"                                  // another http benchmarking tool
 	_ "github.com/securego/gosec/cmd/gosec"                    // Go code security inpection
