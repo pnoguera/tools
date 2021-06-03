@@ -5,6 +5,7 @@ package main
 import (
 	_ "github.com/SuddenGunter/jwtdec"                         // JWT decoder
 	_ "github.com/davecheney/httpstat"                         // http status
+	_ "github.com/dundee/gdu"                                  // DU tool
 	_ "github.com/gjbae1212/gossm"                             // SSM SSH
 	_ "github.com/gobuffalo/buffalo/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12

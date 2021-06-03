@@ -5,6 +5,7 @@ go 1.13
 require (
 	github.com/SuddenGunter/jwtdec v0.1.1
 	github.com/davecheney/httpstat v1.0.0
+	github.com/dundee/gdu v1.7.1
 	github.com/gjbae1212/gossm v1.3.0
 	github.com/gobuffalo/buffalo v0.16.23
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb
