@@ -3,6 +3,9 @@
 default: install-tools
 all: install-tools
 
+tidy:
+	@echo Tidy go.mod
+	@go mod tidy
 download:
 	@echo Download go.mod dependencies
 	@go mod download

@@ -4,6 +4,7 @@ package main
 
 import (
 	_ "github.com/SuddenGunter/jwtdec"                         // JWT decoder
+	_ "github.com/cloudflare/cfssl/cmd/cfssl"                  // PKI/TLS swiss army nife
 	_ "github.com/davecheney/httpstat"                         // http status
 	_ "github.com/dundee/gdu/v5/cmd/gdu"                       // DU tool
 	_ "github.com/gjbae1212/gossm"                             // SSM SSH
