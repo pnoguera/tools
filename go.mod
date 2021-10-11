@@ -7,6 +7,7 @@ require (
 	github.com/cloudflare/cfssl v1.6.1
 	github.com/davecheney/httpstat v1.0.0
 	github.com/dundee/gdu/v5 v5.0.1
+	github.com/elecprog/tldr v0.3.1
 	github.com/gjbae1212/gossm v1.3.0
 	github.com/gobuffalo/buffalo v0.16.23
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb

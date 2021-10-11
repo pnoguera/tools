@@ -7,6 +7,7 @@ import (
 	_ "github.com/cloudflare/cfssl/cmd/cfssl"                  // PKI/TLS swiss army nife
 	_ "github.com/davecheney/httpstat"                         // http status
 	_ "github.com/dundee/gdu/v5/cmd/gdu"                       // DU tool
+	_ "github.com/elecprog/tldr"                               // tldr is a man similar tool
 	_ "github.com/gjbae1212/gossm"                             // SSM SSH
 	_ "github.com/gobuffalo/buffalo/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12

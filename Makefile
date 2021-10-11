@@ -10,7 +10,7 @@ download:
 	@echo Download go.mod dependencies
 	@go mod download
 
-install-tools: download
+install-tools: tidy download
 	@echo Installing tools from tools.go
 	@cat tools.go | grep _ | while read line; do \
 		REPO=$$(echo $$line | awk -F'"' '{print $$2}' ); \
