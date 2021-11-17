@@ -18,5 +18,7 @@ import (
 	_ "github.com/securego/gosec/cmd/gosec"                    // Go code security inpection
 	_ "github.com/tsenart/vegeta/v12"                          // http load tool
 	_ "github.com/warrensbox/terraform-switcher"               // Terraform version switch tool
+	_ "github.com/ycd/dstp/cmd/dstp"                           // common network tests agaist a domain
+	_ "mvdan.cc/sh/v3/cmd/shfmt@latest"                        // format shell programs
 	_ "sigs.k8s.io/kind@v0.11.1"                               // K8s in Docker
 )

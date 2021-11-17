@@ -26,4 +26,5 @@ require (
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3 // indirect
 	github.com/tsenart/vegeta/v12 v12.8.4
 	github.com/warrensbox/terraform-switcher v0.1.1-0.20210113091211-b83d98e56f65
+	github.com/ycd/dstp v0.3.0
 )
