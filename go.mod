@@ -11,6 +11,7 @@ require (
 	github.com/gjbae1212/gossm v1.4.4
 	github.com/haggishunk/hclfmt v0.0.0-20191107044308-5998902e2cfb
 	github.com/manifoldco/promptui v0.9.0 // indirect
+	github.com/miekg/dns v1.1.25 // indirect
 	github.com/monochromegane/conflag v0.0.0-20151130130520-6d68c9aa4183 // indirect
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/monochromegane/go-home v0.0.0-20151024104835-25d9dda59392 // indirect
