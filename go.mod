@@ -4,6 +4,7 @@ go 1.13
 
 require (
 	github.com/SuddenGunter/jwtdec v0.1.1
+	github.com/anchore/grype v0.33.0
 	github.com/cloudflare/cfssl v1.6.1
 	github.com/davecheney/httpstat v1.1.0
 	github.com/dundee/gdu/v5 v5.10.0
