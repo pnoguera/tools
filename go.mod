@@ -24,9 +24,12 @@ require (
 	github.com/shiena/ansicolor v0.0.0-20200904210342-c7312218db18 // indirect
 	github.com/six-ddc/plow v1.1.0
 	github.com/tomwright/dasel v1.24.0
+	github.com/v-byte-cpu/sx v0.5.0
 	github.com/warren-veerasingam/terraform-switcher v0.1.0 // indirect
 	github.com/warrensbox/terraform-switcher v0.1.0
+	github.com/xo/usql v0.10.0
 	github.com/ycd/dstp v0.3.0
+	golang.org/x/vuln v0.0.0-20220913170424-c9fe2ba7ccad
 	mvdan.cc/sh/v3 v3.4.3
 	sigs.k8s.io/kind v0.12.0
 )

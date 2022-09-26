@@ -13,6 +13,7 @@ import (
 	_ "github.com/gobuffalo/cli/cmd/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
 	_ "github.com/monochromegane/the_platinum_searcher/cmd/pt" // platinum searcher
+	_ "github.com/xo/usql"                                     //universal SQL client
 
 	// _ "github.com/mr-karan/doggo/cmd/doggo/cli"                // #name:doggo# DNS tool
 	_ "github.com/parkghost/gohttpbench"     // http benchmarking tool
@@ -21,9 +22,11 @@ import (
 	_ "github.com/six-ddc/plow"              // HTTP benchmark
 	_ "github.com/tomwright/dasel/cmd/dasel" // jq for JSON,YAML and others
 
-	// _ "github.com/tsenart/vegeta/v12"                          // http load tool
+	// _ "github.com/tsenart/vegeta"                // http load tool
+	_ "github.com/v-byte-cpu/sx"                 // Network scanner
 	_ "github.com/warrensbox/terraform-switcher" // Terraform version switch tool
 	_ "github.com/ycd/dstp/cmd/dstp"             // common network tests agaist a domain
+	_ "golang.org/x/vuln/cmd/govulncheck"        // GO vulnerability check
 	_ "mvdan.cc/sh/v3/cmd/shfmt"                 // format shell programs
 	_ "sigs.k8s.io/kind"                         // K8s in Docker
 )
