@@ -23,10 +23,13 @@ import (
 	_ "github.com/tomwright/dasel/cmd/dasel" // jq for JSON,YAML and others
 
 	// _ "github.com/tsenart/vegeta"                // http load tool
-	_ "github.com/v-byte-cpu/sx"                 // Network scanner
-	_ "github.com/warrensbox/terraform-switcher" // Terraform version switch tool
-	_ "github.com/ycd/dstp/cmd/dstp"             // common network tests agaist a domain
-	_ "golang.org/x/vuln/cmd/govulncheck"        // GO vulnerability check
-	_ "mvdan.cc/sh/v3/cmd/shfmt"                 // format shell programs
-	_ "sigs.k8s.io/kind"                         // K8s in Docker
+	_ "filippo.io/age/cmd/age"                       // Modern encryption tool
+	_ "filippo.io/age/cmd/age-keygen"                // Modern encryption tool
+	_ "github.com/v-byte-cpu/sx"                     // Network scanner
+	_ "github.com/warrensbox/terraform-switcher"     // Terraform version switch tool
+	_ "github.com/yannh/kubeconform/cmd/kubeconform" // kubernetes manifest validation tool
+	_ "github.com/ycd/dstp/cmd/dstp"                 // common network tests agaist a domain
+	_ "golang.org/x/vuln/cmd/govulncheck"            // GO vulnerability check
+	_ "mvdan.cc/sh/v3/cmd/shfmt"                     // format shell programs
+	_ "sigs.k8s.io/kind"                             // K8s in Docker
 )

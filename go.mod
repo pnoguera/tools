@@ -3,6 +3,7 @@ module github.com/pnoguera/tools
 go 1.13
 
 require (
+	filippo.io/age latest
 	github.com/SuddenGunter/jwtdec v0.1.1
 	github.com/anchore/grype v0.33.0
 	github.com/cloudflare/cfssl v1.6.1
@@ -28,6 +29,7 @@ require (
 	github.com/warren-veerasingam/terraform-switcher v0.1.0 // indirect
 	github.com/warrensbox/terraform-switcher v0.1.0
 	github.com/xo/usql v0.10.0
+	github.com/yannh/kubeconform v0.6.1
 	github.com/ycd/dstp v0.3.0
 	golang.org/x/vuln v0.0.0-20220913170424-c9fe2ba7ccad
 	mvdan.cc/sh/v3 v3.4.3
