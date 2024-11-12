@@ -3,8 +3,8 @@
 package main
 
 import (
-	_ "github.com/SuddenGunter/jwtdec"                         // JWT decoder
-	_ "github.com/anchore/grype"                               // Vulnerability scanner
+	_ "github.com/SuddenGunter/jwtdec" // JWT decoder
+	// _ "github.com/anchore/grype"                               // Vulnerability scanner
 	_ "github.com/cloudflare/cfssl/cmd/cfssl"                  // PKI/TLS swiss army nife
 	_ "github.com/davecheney/httpstat"                         // http status
 	_ "github.com/dundee/gdu/v5/cmd/gdu"                       // DU tool
@@ -23,13 +23,15 @@ import (
 	_ "github.com/tomwright/dasel/cmd/dasel" // jq for JSON,YAML and others
 
 	// _ "github.com/tsenart/vegeta"                // http load tool
-	_ "filippo.io/age/cmd/age"                       // Modern encryption tool
-	_ "filippo.io/age/cmd/age-keygen"                // Modern encryption tool
-	_ "github.com/v-byte-cpu/sx"                     // Network scanner
-	_ "github.com/warrensbox/terraform-switcher"     // Terraform version switch tool
-	_ "github.com/yannh/kubeconform/cmd/kubeconform" // kubernetes manifest validation tool
-	_ "github.com/ycd/dstp/cmd/dstp"                 // common network tests agaist a domain
-	_ "golang.org/x/vuln/cmd/govulncheck"            // GO vulnerability check
-	_ "mvdan.cc/sh/v3/cmd/shfmt"                     // format shell programs
-	_ "sigs.k8s.io/kind"                             // K8s in Docker
+	_ "filippo.io/age/cmd/age"                                 // Modern encryption tool
+	_ "filippo.io/age/cmd/age-keygen"                          // Modern encryption tool
+	_ "github.com/awslabs/eks-node-viewer/cmd/eks-node-viewer" // viasualization of dynamic node usage in EKS
+	_ "github.com/v-byte-cpu/sx"                               // Network scanner
+	_ "github.com/wallix/awless"                               // aws cli wrapper
+	_ "github.com/warrensbox/terraform-switcher"               // Terraform version switch tool
+	_ "github.com/yannh/kubeconform/cmd/kubeconform"           // kubernetes manifest validation tool
+	_ "github.com/ycd/dstp/cmd/dstp"                           // common network tests agaist a domain
+	_ "golang.org/x/vuln/cmd/govulncheck"                      // GO vulnerability check
+	_ "mvdan.cc/sh/v3/cmd/shfmt"                               // format shell programs
+	_ "sigs.k8s.io/kind"                                       // K8s in Docker
 )
