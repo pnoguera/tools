@@ -14,7 +14,7 @@ download:
 
 install-tools: tidy download
 	@echo Installing tools from tools.go
-	@cat tools.go | grep _ | while read line; do \
+	@cat tools.go | grep _ | grep -v "^[[:space:]]*//" | while read line; do \
 		REPO=$$(echo $$line | awk -F'"' '{print $$2}' ); \
 		BINARY=$$(echo $$line | grep _ | awk -F'"' '{print $$2}' | sed 's/.*\///;s/@.*//'); \
 		NEW_BINARY=$$(echo $$line | sed -n 's/.*#name:\(.\+\)#.*/\1/p'); \
