@@ -8,6 +8,9 @@ upgrade:
 tidy:
 	@echo Tidy go.mod
 	@go mod tidy
+tidy-dry-run:
+	@echo Tidy dry-run go.mod
+	@go mod tidy -diff -v
 download:
 	@echo Download go.mod dependencies
 	@go mod download
