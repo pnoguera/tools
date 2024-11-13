@@ -10,13 +10,12 @@ import (
 	_ "github.com/dundee/gdu/v5/cmd/gdu"      // DU tool
 	_ "github.com/elecprog/tldr"              // tldr is a man similar tool
 
-	_ "github.com/gjbae1212/gossm"                             // SSM SSH
 	_ "github.com/gobuffalo/cli/cmd/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
 	_ "github.com/monochromegane/the_platinum_searcher/cmd/pt" // platinum searcher
 	_ "github.com/xo/usql"                                     //universal SQL client
 
-	_ "github.com/mr-karan/doggo/cmd/doggo"  // #name:doggo# DNS tool
+	_ "github.com/mr-karan/doggo/cmd/doggo"  // DNS tool
 	_ "github.com/parkghost/gohttpbench"     // http benchmarking tool
 	_ "github.com/rakyll/hey"                // another http benchmarking tool
 	_ "github.com/securego/gosec/cmd/gosec"  // Go code security inpection
