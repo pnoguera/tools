@@ -3,8 +3,8 @@
 package main
 
 import (
-	_ "github.com/SuddenGunter/jwtdec" // JWT decoder
-	// _ "github.com/anchore/grype"                               // Vulnerability scanner
+	_ "github.com/SuddenGunter/jwtdec"        // JWT decoder
+	_ "github.com/anchore/grype/cmd/grype"    // Vulnerability scanner
 	_ "github.com/cloudflare/cfssl/cmd/cfssl" // PKI/TLS swiss army nife
 	_ "github.com/davecheney/httpstat"        // http status
 	_ "github.com/dundee/gdu/v5/cmd/gdu"      // DU tool
