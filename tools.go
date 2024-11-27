@@ -9,6 +9,7 @@ import (
 	_ "github.com/davecheney/httpstat"        // http status
 	_ "github.com/dundee/gdu/v5/cmd/gdu"      // DU tool
 	_ "github.com/elecprog/tldr"              // tldr is a man similar tool
+	_ "gitlab.com/gitlab-org/cli/cmd/glab"    // GitLab CLI
 
 	_ "github.com/gobuffalo/cli/cmd/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
