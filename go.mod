@@ -508,7 +508,7 @@ require (
 	github.com/prometheus/common v0.60.1 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/proullon/ramsql v0.1.4 // indirect
-	github.com/quic-go/quic-go v0.47.0 // indirect
+	github.com/quic-go/quic-go v0.48.2 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/tview v0.0.0-20241103174730-c76f7879f592 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
