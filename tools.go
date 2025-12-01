@@ -1,3 +1,4 @@
+//go:build tools
 // +build tools
 
 package main
@@ -11,10 +12,11 @@ import (
 	_ "github.com/elecprog/tldr"              // tldr is a man similar tool
 	_ "gitlab.com/gitlab-org/cli/cmd/glab"    // GitLab CLI
 
+	_ "github.com/charmbracelet/mods"                          // AI cli
 	_ "github.com/gobuffalo/cli/cmd/buffalo"                   // Go Buffalo
 	_ "github.com/haggishunk/hclfmt"                           // HCL code formatter. Supports terraform 0.12
 	_ "github.com/monochromegane/the_platinum_searcher/cmd/pt" // platinum searcher
-	_ "github.com/xo/usql"                                     //universal SQL client
+	_ "github.com/xo/usql"                                     // universal SQL client
 
 	_ "github.com/mr-karan/doggo/cmd/doggo"  // DNS tool
 	_ "github.com/parkghost/gohttpbench"     // http benchmarking tool
@@ -29,6 +31,7 @@ import (
 	_ "github.com/awslabs/eks-node-viewer/cmd/eks-node-viewer" // viasualization of dynamic node usage in EKS
 
 	// _ "github.com/v-byte-cpu/sx"                               // Network scanner
+	_ "github.com/syntasso/kratix-cli/cmd/kratix"    // Kratix CLI
 	_ "github.com/wallix/awless"                     // aws cli wrapper
 	_ "github.com/warrensbox/terraform-switcher"     // Terraform version switch tool
 	_ "github.com/yannh/kubeconform/cmd/kubeconform" // kubernetes manifest validation tool
