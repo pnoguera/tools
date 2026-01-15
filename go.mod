@@ -3,7 +3,7 @@ module github.com/pnoguera/tools
 go 1.25.4
 
 require (
-	filippo.io/age v1.2.0
+	filippo.io/age v1.2.1
 	github.com/SuddenGunter/jwtdec v0.2.0
 	github.com/anchore/grype v0.84.0
 	github.com/awslabs/eks-node-viewer v0.7.0
